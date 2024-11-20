@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BasicCoreJavaProject/src/com/java/FileStreamExample2/FileCreateStreamDemo.java&apos; to &apos;FileCreateStreamDemoObject.java&apos;" description="Rename resource &apos;FileCreateStreamDemo.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/java/FileStreamExample2/FileCreateStreamDemo.java" name="FileCreateStreamDemoObject.java" stamp="1638010371388" updateReferences="true"/>
+</session>

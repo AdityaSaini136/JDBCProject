@@ -1,0 +1,28 @@
+package com.test.util.HashCode;
+
+public class Employee implements Comparable<Employee>{
+
+	private int empid;
+	private String empname;
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public int compareTo(Employee employee) {
+		if (this.empid>employee.getEmpid()) {
+			return 1;
+		}else if (this.empid < employee.getEmpid()) {
+			return -1;
+		}else {
+			return 0;
+		}
+	}
+}

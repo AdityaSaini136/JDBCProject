@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.serializable&apos; to &apos;com.Cloning&apos;&#x0D;&#x0A;- Original project: &apos;Serializable&apos;&#x0D;&#x0A;- Original element: &apos;Serializable/src/com.serializable&apos;&#x0D;&#x0A;- Renamed element: &apos;Serializable/src/com.Cloning&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.serializable&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.serializable" name="com.Cloning" qualified="false" references="true" stamp="1690561266201" textual="false" version="1.0"/>
+</session>

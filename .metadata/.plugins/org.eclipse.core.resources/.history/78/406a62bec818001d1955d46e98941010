@@ -1,0 +1,14 @@
+package com.test;
+
+public class U  extends T{
+
+	void getMsg() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

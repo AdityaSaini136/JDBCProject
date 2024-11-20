@@ -1,0 +1,20 @@
+package com.java.Arrays.LargestNum;
+
+public class Test {
+
+	public static void main(String[] args) {
+		List<Integer> list = null;
+		Integer intArr [] =  {1,2,3,4,5,6,4,3,2,4,2,1};
+		List<Integer> asList = Arrays.asList(intArr);
+		TreeSet<Integer> ts = new TreeSet<>(asList);
+		for(Integer res : ts) {
+			list = new ArrayList<>();
+			list.add(res);
+			
+		}
+		System.out.println(list);
+		Integer res = list.get(list.size()-2);
+		System.out.println("Result : "+res);
+	}
+
+}

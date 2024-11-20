@@ -1,0 +1,23 @@
+package com.java.Arrays;
+
+public class CharOccurrence {
+    public static void main(String[] args) {
+	   	String strMsg = "message";
+	    chatacterOccurrence(strMsg);
+	}
+	public static void chatacterOccurrence(String strMsg) {
+		char[] charArray = strMsg.toCharArray();
+		for(int i=0; i<charArray.length;i++) {
+			int counter= 1;
+			for(int j=i+1; j<charArray.length; j++) {
+				if(charArray[i] == charArray[j]) {
+					counter++;
+					charArray[j] = '0';
+				}
+			}
+			if(counter>0 && charArray[i] !='0') {
+				System.out.println(charArray[i] + " : "+counter);
+			}	
+		}
+	}
+}

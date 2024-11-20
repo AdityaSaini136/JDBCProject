@@ -1,0 +1,14 @@
+package com.hkcl;
+
+public class Test {
+	public static void main(String[] args) {
+
+		int n=17;
+		int r = n/1/n;
+		if(r==1 ) {
+			System.out.println("number is prime");
+		}else {
+			System.out.println("number is not prime");
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package com.java.MySingleTonPatteren;
+
+public class MySingleTonPatteren {
+	
+	private static MySingleTonPatteren MySingleTonPatteren = null;
+	private int count = 0;
+	private MySingleTonPatteren() {
+		//count = count  +1;
+		System.out.println("Counter Value :=>>>>>>" +count);
+	}
+  public static MySingleTonPatteren getSingletonObject() {
+	  if (MySingleTonPatteren == null) {
+		  MySingleTonPatteren = new MySingleTonPatteren();
+	  }
+	  return MySingleTonPatteren;
+  }
+	public String showMessage(String msg) {
+		return "Hello Mr " +msg;
+	}
+}

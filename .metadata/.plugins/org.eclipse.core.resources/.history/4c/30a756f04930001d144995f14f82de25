@@ -1,0 +1,49 @@
+package com.test.util.MAP;
+import java.util.Collection;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class TestMapProperties {
+	public static void main(String[] args) {
+		HashMap<String,String> hm = new HashMap<>();
+		hm.put("A001", "Oracle1");
+		hm.put("A002", "Oracle2");
+		hm.put("A003", "Oracle3");
+		hm.put("A004", "Oracle4");
+		hm.put("A005", "Oracle5");
+		hm.put("A006", "Oracle6");
+		System.out.println("Size of the Map : =>>> " +hm.size());
+		//First approach.:=>>result key + value;
+		Set<Entry<String,String>> entrySet = hm.entrySet();
+		Iterator<Entry<String, String>> iterator = entrySet.iterator();
+		while (iterator.hasNext()) {
+			Entry<String, String> element = iterator.next();
+			String key = element.getKey();
+			String value = element.getValue();
+			System.out.println(key  + ":" +value);
+		//222Second Approch :=>>result  only Key;
+	//	Set<String> keySet = hm.keySet();
+	  // Iterator<String> iterator = keySet.iterator();
+	//	while (iterator.hasNext()) {
+		//	String strKey =  iterator.next();
+		//	System.out.println(strKey);
+		//333Third approch this method are not use for this Program
+		//boolean containsKey = hm.containsKey(hm)
+		//Iterator<String> iterator = containsKey.iterator();
+			//while (iterator.hasNext()) {
+			//	String strKey =  iterator.next();
+			//	System.out.println(strKey);
+		//444Fourth Approch:=>> result only value;
+		//Collection<String> hmcollection = hm.values();
+	//	Iterator<String> iterator = hmcollection.iterator();
+		//while (iterator.hasNext()) {
+		//	String strValue =  iterator.next();
+		//	System.out.println(strValue);
+	        
+		}
+		}
+    
+

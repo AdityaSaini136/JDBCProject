@@ -1,0 +1,16 @@
+package com.java.ArraysPractice;
+
+public class ArrayCopy {
+	public static void main(String[] args) {
+		
+		int [] intArray = {10,20,30};
+		int [] extandArray = new int[5];
+		extandArray[4] =40;
+		extandArray[3] =50;
+		
+		System.arraycopy(intArray, 0, extandArray, 0, intArray.length);
+		for(int values : extandArray) {
+			System.out.print(values+ " ");
+		}
+	}
+}

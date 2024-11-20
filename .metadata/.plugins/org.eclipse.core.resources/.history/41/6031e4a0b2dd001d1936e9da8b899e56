@@ -1,0 +1,26 @@
+package com.infosys.Map;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class TestMap {
+	public static void main(String[] args) {
+		
+		HashMap hm = new HashMap();
+		hm.put(101, "Aditya");
+		hm.put(109, "Shubham");
+		hm.put(103, "Ravi");
+		hm.put(104, "Madhuri");
+		hm.put(108, "Ravi");
+		
+		Set entrySet = hm.entrySet();
+		Iterator iterator = entrySet.iterator();
+		while(iterator.hasNext()) {
+			Object next = iterator.next();
+			System.out.println(next);
+		}
+		
+	}
+
+}

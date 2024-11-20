@@ -1,0 +1,33 @@
+package com.ibm.hrms.database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class A {
+
+	public static String url = "jdbc:mysql://localhost:3306/Ruf"; 
+	public static String userName   = "root";
+	public static String userPass   = "root";
+	public static String creatTable = "create table students(name varchar(20), fatherName varchar(30), mobileNo varchar(12), address varchar(30))";////for create table executeUpdate return 0 value
+	public static String dropTable  = "drop table students";//for drop executeUpdate return 0 value
+	public static String insertTable  = "insert into student values('Aditya','TeluRam', '9084067443','Haridwar')";////for insert executeUpdate return 1 value
+	public static String updateTable  = "update student where name='Shubham', fatherName='Rafal', mobileNo='9078664879',address='Roorkee'";
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection(url, userName, userPass);
+			Statement crtstmt = con.createStatement();
+			int executeUpdate = crtstmt.executeUpdate(updateTable);
+			System.out.println("Data insert : "+executeUpdate);
+			if(executeUpdate==1) {
+				System.out.println("Data Insert....!");
+			}
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

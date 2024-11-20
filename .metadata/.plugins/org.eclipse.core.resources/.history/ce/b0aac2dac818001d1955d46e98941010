@@ -1,0 +1,15 @@
+package com.test;
+
+public class U  extends T{
+
+	void getMsg() {
+		System.out.println("Children method is invoke...");
+	}
+	
+	public static void main(String[] args) {
+		U u = new U();
+		u.getMsg();
+		
+	}
+	
+}

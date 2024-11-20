@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionJavaProject/src/com/test/util/FailFast&apos; to &apos;FailSafe&apos;" description="Rename resource &apos;FailFast&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test/util/FailFast" name="FailSafe" stamp="1652012699406" updateReferences="true"/>
+</session>

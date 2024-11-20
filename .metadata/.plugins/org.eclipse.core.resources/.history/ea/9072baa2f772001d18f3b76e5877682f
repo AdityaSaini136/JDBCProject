@@ -1,0 +1,29 @@
+package com.java.Arrays;
+
+public class FindAvgValue {
+	// find out the average value with arrays===========================
+	public static void main(String[] args) {
+		try {
+			
+		} catch (ArithmeticException e) {
+			// TODO: handle exception
+		}catch (RuntimeException e) {
+			// TODO: handle exception
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+}
+
+
+// int intArray[] = new int[] { 30, 10, 20, 20, 30 };
+// int counter=0;
+// for(
+// int i = 0;i<intArray.length;i++)
+// {
+// counter += intArray[i];
+// }
+// int res = counter / intArray.length;System.out.println(res);
+// }}

@@ -1,0 +1,24 @@
+package com.java.Arrays.LargestNum;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class ll {
+	public static void main(String[] args) {
+     
+		int intArray []  = new int [] {10,20,30,40,50,60};
+		
+		Set<Integer> set = new TreeSet<Integer>();
+		for(int res : intArray) {
+			set.add(res);
+		}
+		System.out.println("Hi"+set);
+		List<Integer> integer = new ArrayList<Integer>();
+		integer.addAll(set);
+		
+		System.out.println(integer.get(integer.size()-1));
+		
+	}
+}

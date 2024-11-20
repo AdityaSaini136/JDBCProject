@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionJavaProject/src/com/test/util/Thread/Runnable&apos; to &apos;RunnableExample&apos;" description="Rename resource &apos;Runnable&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test/util/Thread/Runnable" name="RunnableExample" stamp="1625917088049" updateReferences="true"/>
+</session>

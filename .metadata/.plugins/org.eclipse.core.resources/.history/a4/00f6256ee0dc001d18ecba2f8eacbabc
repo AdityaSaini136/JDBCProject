@@ -1,0 +1,17 @@
+package com.test.util.Stack; 
+
+import java.util.Stack;
+
+public class StackExample {
+   public static void main ( String [] args ) {
+	   Stack st = new Stack();
+	   st.push("lion");
+	   st.push("ox");
+	   st.push("cat");
+	   System.out.println(st);
+	   System.out.println(st.peek());
+	   System.out.println(st.pop());
+	   System.out.println(st);
+	   System.out.println(st.peek());
+   }
+}

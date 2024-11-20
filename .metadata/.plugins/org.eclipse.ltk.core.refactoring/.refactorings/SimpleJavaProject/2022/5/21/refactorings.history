@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SimpleJavaProject/src/com/test1/Multiple&apos; to &apos;MultipleInhertance&apos;" description="Rename resource &apos;Multiple&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test1/Multiple" name="MultipleInhertance" stamp="1652634202086" updateReferences="true"/>
+</session>

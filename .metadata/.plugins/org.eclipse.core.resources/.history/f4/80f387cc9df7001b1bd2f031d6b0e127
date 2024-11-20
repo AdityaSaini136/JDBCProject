@@ -1,0 +1,11 @@
+package com.java.MySingleTonPatteren;
+
+public class Clientcode {
+	public static void main(String[] args) {
+		
+		MySingleTonPatteren singletonObject = MySingleTonPatteren.getSingletonObject();
+		String showMessage = singletonObject.showMessage("Java Developer");
+		System.out.println(showMessage);
+	}
+
+}

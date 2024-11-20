@@ -1,0 +1,19 @@
+package com.infosys.Map;
+
+import java.util.HashMap;
+
+public class TestMap {
+	public static void main(String[] args) {
+		
+		HashMap hm = new HashMap();
+		hm.put(101, "Aditya");
+		hm.put(102, "Shubham");
+		hm.put(103, "Ravi");
+		hm.put(104, "Madhuri");
+		
+		
+		System.out.println(hm);
+		
+	}
+
+}

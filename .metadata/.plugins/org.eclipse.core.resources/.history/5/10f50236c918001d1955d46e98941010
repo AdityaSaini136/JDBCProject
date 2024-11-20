@@ -1,0 +1,8 @@
+package com.test;
+
+public class T {
+
+	void getMsg() {
+		System.out.println("Parents method is invoke...");
+	}
+}

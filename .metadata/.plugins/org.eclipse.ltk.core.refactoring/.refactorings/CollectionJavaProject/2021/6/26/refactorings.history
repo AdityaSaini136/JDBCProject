@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionJavaProject/src/com/test/util/FailFast/ConcurrentHashMap.java&apos; to &apos;ConcurrentHashMapByNet.java&apos;" description="Rename resource &apos;ConcurrentHashMap.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test/util/FailFast/ConcurrentHashMap.java" name="ConcurrentHashMapByNet.java" stamp="1624712928442" updateReferences="true"/>
+</session>

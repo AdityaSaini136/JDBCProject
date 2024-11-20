@@ -1,0 +1,10 @@
+package com.infosys.List;
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	ArrayList<Object> al = new ArrayList<Object> ();
+	al.
+
+}

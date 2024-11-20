@@ -1,0 +1,32 @@
+package com.java.Arrays.LargestNum;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+// Find Largest Number With Set & List Collection....  
+public class LargestArray {
+	public static void main(String[] args) {
+
+		int intArray [] = new int [] {3,3,43,43,34,54,32};
+ 		Set< Integer> set = new TreeSet<>();
+		for(int res : intArray) {
+			set.add(res);
+		}
+		System.out.println(set);
+        List<Integer> list = new ArrayList<Integer>();
+        list.addAll(set);
+        System.out.println(list);
+        System.out.println(list.get(list.size()-2));
+	
+	int intAr [] = new int [] {45,6554,4,32,32,34,54,54,54};
+	Set<Integer> st = new TreeSet<Integer>();
+	for(int re : intAr) {
+		st.add(re);
+	}
+	
+	
+	
+	
+	}	
+}

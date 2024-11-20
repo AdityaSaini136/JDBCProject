@@ -1,0 +1,15 @@
+package com.java.Arrays;
+
+public class NonRepectedChar {
+	public static void main(String[] args) {
+		
+		String word ="ABCDABCE";
+		char[] ch = word.toCharArray();
+		for(char res : ch) {
+			if(word.indexOf(res) == word.lastIndexOf(res)) {
+				System.out.println("Repeted First Character  " +res);
+				break;
+			}
+		}
+	}
+}

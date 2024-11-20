@@ -1,0 +1,31 @@
+package com.test.util.MAP.TreeHashMapfol;
+
+import java.util.HashMap;
+import com.test.util.Hashset.Demo.Product;
+
+public class ProductImp {
+
+	public void getProductDetials() {
+	        Product pd = new Product();
+		    pd.setProdid(78);
+		    pd.setProdname("tree");
+		    
+		    Product pd1 = new Product();
+		    pd1.setProdid(88);
+		    pd1.setProdname("cat");
+		    
+		    Product pd2 = new Product();
+		    pd2.setProdid(98);
+		    pd2.setProdname("dog");
+		    HashMap<String,String> hashMap = new HashMap<>();
+		    hashMap.get(pd);
+		    hashMap.get(pd1);
+		    hashMap.get(pd2);
+		    hashMap.getClass();
+		    System.out.println("Size of the Map :=>>" +hashMap.size());
+		for(String hs:hashMap) {
+			System.out.println(hs.getproductid() +" : " +hs.getproductname());
+			
+		}
+	}	
+}

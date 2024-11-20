@@ -1,0 +1,277 @@
+package com.test.util;
+
+import java.util.Scanner;
+
+public class A {
+	public static void main(String[] args) {
+		/*int a = 20;
+		int b = 2;
+		int c, d;
+        c = a++ + ++a ;  // post increment
+		d = b++ + ++b;
+		//d = b++ + +1;
+		System.out.println(+a);
+		System.out.println(+b);
+		System.out.println(+c);
+		System.out.println(+d);
+		int x = 10; 
+		//int z =  x++;
+		int z = x++;
+		System.out.println(z);
+		System.out.println(x);*/
+
+		//  2nd Programm==============================================
+		/*boolean  condition = true;
+		if (condition) {
+			System.out.println("Condition is true");
+		}else {System.out.println("Condition is false");
+	} */
+		//3rd program==================================================
+		/*	int month;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter The Month Number");
+		month = scanner.nextInt();
+		if (month ==1 || month ==2 || month == 3) {
+			System.out.println("Winter");
+		}
+		else if (month ==4 || month == 5 || month ==6) {
+			System.out.println("Spring");
+		}
+		else if (month == 7 || month == 8   || month == 9) {
+			System.out.println("Summer");
+		}
+		else if ( month == 10 || month == 11 || month == 12) {
+			System.out.println("Autunm");
+		}
+		else {
+			System.out.println("Wrong Input");
+		}
+
+		//=======4th program =====================Result==============================
+		// int number;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Number");
+		int number = scanner.nextInt();
+		scanner.close(); 
+		if(number >=90) {
+			System.out.println("Grade A++");
+		}
+		else if (number >= 80 & number <90) {
+			System.out.println("Grade A+");
+		}
+		else if ( number >=70 & number <80) {
+			System.out.println("Grade B++");
+		}
+		else if (number >=60 & number <70) {
+			System.out.println("Grade B+");
+		}
+		else if (number >=50 & number <60) {
+			System.out.println("Grade C++");
+		}
+		else if ( number >=40 & number <50) {
+			System.out.println("Grade C+");
+		}
+		else if (number >=30 & number <40) {
+			System.out.println("Grade D");
+		}
+		else {
+			System.out.println("Fail");
+		}
+		// 5th program NestedIfProgram================================================================
+		int num = 57;
+
+		if (num > 50) {
+			if (num % 2 ==0) {
+				System.out.println("Input Numberb Is Greater than 50 and it is even number");
+			}
+			else {
+				System.out.println("Input Numberb Is Greater than 50 and it is odd number");
+			}
+		}
+			else {
+				System.out.println("Input Number is less than 50");
+			}*/
+		//==========================================================================================
+		/*byte a = 127;
+		byte b = 127;
+		byte c = (byte) (a+b) ;
+		System.out.println(c);*/
+		/*byte a ;
+		int b = 150;
+	     a=(byte) b;
+		System.out.println(a);*/
+		//===============================
+		/*Scanner scanner = new Scanner (System.in);
+			System.out.println("Enter The Number");
+			int num = scanner.nextInt();
+			scanner.close();
+		if (num ==0)
+		System.out.println("zero");
+		 if (num >0)
+			System.out.println("positive");
+		else  
+			System.out.println("Negative");*/
+		/*int b= 20;
+		int c = 30;
+		 if( b>=21) {
+		 if (c>=30) {
+		    	 System.out.println("both condition are valied");
+		 }else System.out.println("number is large");
+	     }else System.out.println("number 20 is large");*/
+		//===============================================================================
+		/*int age = 25;
+		int weight = 48;
+		if (age >=18) {
+			System.out.println("you are eligible to donate blood");
+		}else System.out.println("you are not eligible");
+		if (weight >50) {
+			System.out.println("your are eligible");
+		}else System.out.println("you are not eligible");*/
+		//==========================================
+		/* int age=25;    
+		   int weight=50;      
+		    //applying condition on age and weight    
+		    if(25>=27){      
+		        if(50>=56){    
+		            System.out.println("You are eligible to donate blood");    
+		        } else{  
+		            System.out.println("You are not eligible to donate blood");    
+		        }  
+		    } else{  
+		      System.out.println("Age must be greater than 18");  
+		    }  
+		//=========================================================================
+	//	int time = 20;
+		/*if (8 < 18) {
+		  System.out.println("Good day.");
+		} else {
+		  System.out.println("Good evening.");
+		}*/
+		//int 56 = 20;
+		//String result = (56 > 21) ? "Good day." : "Good evening.";
+		//System.out.println(result);	
+		/*	int x = 50;
+		int y = 10;
+		if (x <y) {
+		  System.out.println("Hello World");
+		}else if (x<y) {
+			System.out.println("condition is true");
+		}else System.out.println("condition is not true");*/
+		/*byte a = 60;  //0000 1010
+		byte b = 70;   //0000 0111       
+		//-128 to 127 // 256 0000 0000
+	    short c = a+b;//-32768  to  32767 
+		System.out.println(c);*/
+
+		/*  int a = 20;
+		int b = 2;
+		int c, d;
+        c = a++ + ++a ;  // post increment
+		d = b++ + ++b;
+		//d = b++ + +1;
+		System.out.println(+a);
+		System.out.println(+b);
+		System.out.println(+c);
+		System.out.println(+d);
+		int x = 5; 
+		int z = x++*++x;
+		//int z = x++;
+		System.out.println(z);
+		System.out.println(x);*/
+		//=================================================================================
+		/* int Expression = 18;
+		 switch(Expression) {
+		 case 1:
+			 System.out.println("case 1 is executed");
+			 break;
+		 case 5:
+			 System.out.println("case 5 is executed");
+			 break;
+		 case 10:
+			 System.out.println("case 10 is executed");
+			 break;
+			 default:
+			 System.out.println("Default case is exacuted");
+		 }*/
+		//==================================================================================
+		/*byte a = 8;
+		switch (a) {
+		case 1:
+			System.out.println("1");
+			break;
+		case 2:
+			System.out.println("2");
+            break;
+		case 3:
+			System.out.println("3");
+			break;
+		case 4 :
+			System.out.println("4");
+			break;
+		default:
+			System.out.println("Default Case");
+			break;
+		}*/
+		//=====================================================================
+		/*String xyz = "may";
+		switch(xyz) {
+		case "January":
+		case "feburary":
+		case "march":
+			System.out.println("winter ");
+			break;
+		case "april":
+		case "may":
+		case "june":
+			System.out.println("summer");
+			break;
+		case "july":
+		case "august":
+		case "september":
+			System.out.println("mansoon");
+			break;
+		case "october":
+		case "november":
+		case "december":
+			System.out.println("autmon");
+			break;
+		default :
+			System.out.println("default print ");
+			break;
+		}*/
+		//====================================================================================
+	   /* String  var = "o";
+        switch (var) {
+        case "r":
+        	System.out.println("Red");
+        	break;
+        case "w":
+        System.out.println("White");
+        break;
+        case "o":
+        	System.out.println("Orange");
+        	break;
+        default:  
+        System.out.println(" Condition is Default");
+        }*/
+		//while loop=========================================================================
+        /* int a = 0;
+         while (a<5) {
+        	 System.out.println("Hii Aadi");
+        	 a++;
+         }		int maximumnumber = 10;
+		int smallestNumber = 2;
+		System.out.println("Odd Number");
+         while (smallestNumber <=maximumnumber) {
+        	 System.out.println(smallestNumber);
+        	smallestNumber +=2;
+         }System.out.println("Operation Done"); */
+         char  firstlatter = 'a';        //97
+         System.out.println("LowerCaseAlphabet");
+         while (firstlatter<='z') {
+        	 System.out.println(firstlatter);
+        	 firstlatter++;
+         }
+
+	}
+}

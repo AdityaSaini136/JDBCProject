@@ -1,0 +1,23 @@
+package com.java.Arrays;
+
+public class FindAvgValue {
+	//find out the average value with arrays===========================
+	public static void main(String[] args) {
+
+		int intArray [] = new int [] {30,10,20,20,30};
+		int counter=0;
+		for(int i=0; i<intArray.length; i++) {
+			counter += intArray[i];
+		}
+		int res = counter/intArray.length;
+		System.out.println(res);
+
+		int coun=0;
+		int intAr [] = new int [] {10,20,30,40};
+		for(int i=0; i<intAr.length; i++) {
+			coun  += intAr[i];			
+		}		
+		int resu = coun/intAr.length;		
+		System.out.println(resu);
+	}
+}

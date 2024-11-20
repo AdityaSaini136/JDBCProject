@@ -1,0 +1,25 @@
+package com.test;
+//This is the overriding best example.................
+public class Polymorphism {
+	public static void main(String[] args) {
+		Z z = new Z();
+		z.m();
+	}
+}
+class X{
+	void m(){
+		System.out.println("XM");	
+	}
+}
+class Y extends X{
+	 void m(){
+		System.out.println("YM");	
+		super.m();
+	}
+}
+class Z extends Y{
+	 void m(){
+		System.out.println("ZM");	
+		super.m();
+	}
+}

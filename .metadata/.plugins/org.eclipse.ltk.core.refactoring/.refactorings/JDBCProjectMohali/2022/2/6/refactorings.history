@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;Id&apos; in &apos;com.StudentsDetails.Strat.main(...)&apos; to &apos;id&apos;&#x0D;&#x0A;- Original project: &apos;JDBCProjectMohali&apos;&#x0D;&#x0A;- Original element: &apos;com.StudentsDetails.Strat.main(String[]).Id&apos;&#x0D;&#x0A;- Renamed element: &apos;Id&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;Id&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.StudentsDetails{Strat.java[Strat~main~\[QString;@Id!1948!1988!1952!1953!I!0!false" name="id" references="true" stamp="1643725938987" version="1.0"/>
+</session>

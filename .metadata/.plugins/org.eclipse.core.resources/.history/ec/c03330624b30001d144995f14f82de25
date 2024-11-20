@@ -1,0 +1,21 @@
+package com.test.util.MAP.TreeHashMapfol;
+
+public class Product {
+	private int Produtid;
+	private String Productname;
+	public int getProdutid() {
+		return Produtid;
+	}
+	public void setProdutid(int produtid) {
+		Produtid = produtid;
+	}
+	public String getProductname() {
+		return Productname;
+	}
+	public void setProductname(String productname) {
+		Productname = productname;
+	}
+	
+	
+
+}

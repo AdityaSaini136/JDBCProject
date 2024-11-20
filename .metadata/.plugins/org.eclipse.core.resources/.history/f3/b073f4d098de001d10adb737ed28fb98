@@ -1,0 +1,40 @@
+package com.infosys.Map;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class TestMap {
+	public static void main(String[] args) {
+		
+		HashMap hm = new HashMap();
+		hm.put(101, "Zditya");
+		hm.put(109, "Ahubham");
+		hm.put(103, "Ravi");
+		hm.put(104, "Madhuri");
+		hm.put(102, "Madhuri");
+		hm.put(108, "Ravi");
+		
+		Set entrySet = hm.entrySet();
+		Iterator iterator = entrySet.iterator();
+		while(iterator.hasNext()) {
+			Object next = iterator.next();
+			//System.out.println(next);
+		}
+		Set keySet = hm.keySet();
+		Iterator iterator2 = keySet.iterator();
+		while(iterator2.hasNext()) {
+			Object next = iterator2.next();
+			//System.out.println(next);
+		}
+		Collection values = hm.values();
+		Iterator iterator3 = values.iterator();
+		while(iterator3.hasNext()) {
+			Object next = iterator3.next();
+			System.out.println(next);
+		}
+		
+	}
+
+}

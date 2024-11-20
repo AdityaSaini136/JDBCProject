@@ -1,0 +1,14 @@
+package com.test;
+
+public  class Overriding{
+
+//	Overriding(){
+//		System.out.println("COnstruction calling...");
+//	}
+
+	 protected String getData() throws ClassNotFoundException
+	{
+		//System.out.println("Parents class Method.....");
+		return "Parents class Method.....";
+	}
+}

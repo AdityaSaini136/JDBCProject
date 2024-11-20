@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionJavaProject/src/com/test/util/Queue/QueueExample.java&apos; to &apos;PriorityQueueExample.java&apos;" description="Rename resource &apos;QueueExample.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test/util/Queue/QueueExample.java" name="PriorityQueueExample.java" stamp="1630143858661" updateReferences="true"/>
+</session>

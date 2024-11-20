@@ -1,0 +1,31 @@
+package com.test.util.LinkedList;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedListTest {
+	public static void main(String[] args) {
+		
+		ArrayList< String > arrayList = new ArrayList<String>();
+		arrayList.sort(null);
+		
+		arrayList.add("Aadi");
+		for(String al : arrayList) {
+			//System.out.println(al);
+ 		}
+ 		LinkedList<String> linkedList = new LinkedList<>();
+ 		linkedList.add("laptop3");
+ 		linkedList.add("laptop1");
+ 		linkedList.add( null);
+		String element = linkedList.element();
+		linkedList.add("laptop989898");
+		linkedList.add("laptop3");
+		linkedList.add("laptop4");
+		linkedList.add("laptop5");
+		//System.out.println("size of the  linked list  :+>>>" +linkedList.size());
+		for(String strMsg : linkedList) {
+		System.out.println(strMsg);
+	}
+  }
+}

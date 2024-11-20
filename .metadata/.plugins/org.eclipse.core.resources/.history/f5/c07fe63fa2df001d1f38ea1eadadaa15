@@ -1,0 +1,44 @@
+package com.test.util.Table;
+
+import java.util.Collection;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Set;
+
+public class TestMapHashTable {
+	public static void main(String[] args) {
+		Hashtable<String, String> ht = new Hashtable<>();
+		ht.put("A001", "Oracle1");
+		ht.put("A002", "Oracle2");
+		ht.put("A003", "Oracle3");
+		ht.put("A004", "Oracle4");
+		ht.put("A005", "Oracle5");
+		System.out.println("Size of the table :=>>>"  +ht.size());
+		// 1st Approch result only key;
+		//Enumeration<String> keys = ht.keys();
+		//while (keys.hasMoreElements()) {
+		//	String strkey =  keys.nextElement();
+		//	System.out.println(strkey);
+		//2nd Approch Result only value;
+		//	Collection<String> values = ht.values();
+		//Iterator<String> iterator = values.iterator();
+		//	while (iterator.hasNext()) {
+		//		String strValue =  iterator.next();
+		//		System.out.println(strValue);
+		//3rd Approch Result only key;
+		//Set<String> keySet = ht.keySet();
+		//	for(String strkey:keySet) {
+		//System.out.println(strkey);
+		//4th Approch Result only values;
+		Enumeration<String> elements = ht.elements();
+	    	while (elements.hasMoreElements()) {
+			String string =  elements.nextElement();
+			System.out.println(string);
+	    	}
+		}
+	}
+
+
+
+

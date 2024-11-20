@@ -1,0 +1,28 @@
+package com.info;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Test {
+
+	public static void main(String[] args)   {
+		System.out.println("vhgfgkuhbjl");
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Info", "root", "root");
+			Statement stmt = con.createStatement();
+			//int rs = stmt.executeUpdate("create table Employee(name varchar(30),MNo int(20))");
+			int executeUpdate = stmt.executeUpdate("insert into Employee (name, MNo) values('Aadi' , 9080) ");
+			if(executeUpdate==0) {
+				System.out.println("Datab insert.!");
+			}
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

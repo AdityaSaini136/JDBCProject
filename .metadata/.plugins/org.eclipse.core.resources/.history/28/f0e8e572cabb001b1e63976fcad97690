@@ -1,0 +1,9 @@
+package com.hcl.buld.basic;
+
+public class MyFirstDemo {
+
+	public void showMessage(String msg1,String msg2) {
+		String strResut = msg1+ " : "+msg2;
+	}
+
+}

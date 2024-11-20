@@ -1,0 +1,4 @@
+1643280842635	Rename local variable 'date'
+1643280903328	Rename field 'getTotal'
+1643280925892	Rename local variable 'getTotal'
+1643375143941	Extract method 'getItemToRemove'

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollectionJavaProject/src/com/test/util/ExecutorFramework/TestExecutor/CallableTest/CallableTest2&apos; to &apos;CallableTestfact&apos;" description="Rename resource &apos;CallableTest2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/test/util/ExecutorFramework/TestExecutor/CallableTest/CallableTest2" name="CallableTestfact" stamp="1626622315432" updateReferences="true"/>
+</session>

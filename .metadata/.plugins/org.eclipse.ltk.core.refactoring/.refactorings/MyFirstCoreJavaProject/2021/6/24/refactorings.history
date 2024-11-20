@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyFirstCoreJavaProject/src/com/hcl/buld/TofindAreaofcircle/UseingMethodAreaofcircle.java&apos; to &apos;UsingMethodAreaofcircle.java&apos;" description="Rename resource &apos;UseingMethodAreaofcircle.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/hcl/buld/TofindAreaofcircle/UseingMethodAreaofcircle.java" name="UsingMethodAreaofcircle.java" stamp="1623469104566" updateReferences="true"/>
+</session>

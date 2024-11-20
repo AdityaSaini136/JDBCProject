@@ -1,0 +1,29 @@
+package com.mohali;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class FirstJDBCExample {
+	private static String url = "jdbc:mysql://localhost:3306/student";
+	private static String username = "root";
+	private static String password = "root";
+	public static void main(String[] args) {
+		//1.Load Database Driver
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			//2.Create Database connection
+			Connection connection = DriverManager.getConnection(url, username, password);
+			//3.Create Statement/PreparedStatement object(Interface)
+			Statement stmt = connection.createStatement();
+			//4.Query Execution(ResultSet)
+			boolean result = stmt.execute("Insert into data values(11,'Aditya','Laksar','India')");
+			System.out.println("Result => "+result);
+			connection.close();
+			stmt.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
